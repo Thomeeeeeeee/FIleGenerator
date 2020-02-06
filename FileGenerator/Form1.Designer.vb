@@ -25,12 +25,12 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.NameTextBox = New System.Windows.Forms.TextBox()
+        Me.AgeTextBox = New System.Windows.Forms.TextBox()
+        Me.AddressTextBox = New System.Windows.Forms.TextBox()
+        Me.TXTButton = New System.Windows.Forms.Button()
+        Me.XMLButton = New System.Windows.Forms.Button()
+        Me.JSONButton = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -63,79 +63,88 @@ Partial Class Form1
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "Age:"
         '
-        'TextBox1
+        'NameTextBox
         '
-        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(164, 45)
-        Me.TextBox1.Multiline = True
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(475, 38)
-        Me.TextBox1.TabIndex = 3
+        Me.NameTextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.NameTextBox.Location = New System.Drawing.Point(164, 45)
+        Me.NameTextBox.Multiline = True
+        Me.NameTextBox.Name = "NameTextBox"
+        Me.NameTextBox.Size = New System.Drawing.Size(475, 38)
+        Me.NameTextBox.TabIndex = 3
         '
-        'TextBox2
+        'AgeTextBox
         '
-        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(164, 111)
-        Me.TextBox2.Multiline = True
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(52, 38)
-        Me.TextBox2.TabIndex = 4
+        Me.AgeTextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AgeTextBox.Location = New System.Drawing.Point(164, 111)
+        Me.AgeTextBox.Multiline = True
+        Me.AgeTextBox.Name = "AgeTextBox"
+        Me.AgeTextBox.Size = New System.Drawing.Size(52, 38)
+        Me.AgeTextBox.TabIndex = 4
         '
-        'TextBox3
+        'AddressTextBox
         '
-        Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(164, 178)
-        Me.TextBox3.Multiline = True
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(475, 72)
-        Me.TextBox3.TabIndex = 5
+        Me.AddressTextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AddressTextBox.Location = New System.Drawing.Point(164, 178)
+        Me.AddressTextBox.Multiline = True
+        Me.AddressTextBox.Name = "AddressTextBox"
+        Me.AddressTextBox.Size = New System.Drawing.Size(475, 72)
+        Me.AddressTextBox.TabIndex = 5
         '
-        'Button1
+        'TXTButton
         '
-        Me.Button1.Font = New System.Drawing.Font("Perfect Dark (BRK)", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(80, 281)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(101, 33)
-        Me.Button1.TabIndex = 6
-        Me.Button1.Text = "TxT"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.TXTButton.BackColor = System.Drawing.Color.NavajoWhite
+        Me.TXTButton.Font = New System.Drawing.Font("Perfect Dark (BRK)", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TXTButton.Location = New System.Drawing.Point(80, 281)
+        Me.TXTButton.Name = "TXTButton"
+        Me.TXTButton.Size = New System.Drawing.Size(101, 33)
+        Me.TXTButton.TabIndex = 6
+        Me.TXTButton.Text = "TxT"
+        Me.TXTButton.UseVisualStyleBackColor = False
         '
-        'Button2
+        'XMLButton
         '
-        Me.Button2.Font = New System.Drawing.Font("Perfect Dark (BRK)", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(301, 281)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(101, 33)
-        Me.Button2.TabIndex = 7
-        Me.Button2.Text = "XML"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.XMLButton.BackColor = System.Drawing.Color.Aquamarine
+        Me.XMLButton.Font = New System.Drawing.Font("Perfect Dark (BRK)", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.XMLButton.Location = New System.Drawing.Point(301, 281)
+        Me.XMLButton.Name = "XMLButton"
+        Me.XMLButton.Size = New System.Drawing.Size(101, 33)
+        Me.XMLButton.TabIndex = 7
+        Me.XMLButton.Text = "XML"
+        Me.XMLButton.UseVisualStyleBackColor = False
         '
-        'Button3
+        'JSONButton
         '
-        Me.Button3.Font = New System.Drawing.Font("Perfect Dark (BRK)", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(518, 281)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(101, 33)
-        Me.Button3.TabIndex = 8
-        Me.Button3.Text = "JSON"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.JSONButton.BackColor = System.Drawing.Color.Plum
+        Me.JSONButton.Font = New System.Drawing.Font("Perfect Dark (BRK)", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.JSONButton.Location = New System.Drawing.Point(518, 281)
+        Me.JSONButton.Name = "JSONButton"
+        Me.JSONButton.Size = New System.Drawing.Size(101, 33)
+        Me.JSONButton.TabIndex = 8
+        Me.JSONButton.Text = "JSON"
+        Me.JSONButton.UseVisualStyleBackColor = False
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(710, 338)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.BackColor = System.Drawing.Color.SkyBlue
+        Me.ClientSize = New System.Drawing.Size(707, 341)
+        Me.Controls.Add(Me.JSONButton)
+        Me.Controls.Add(Me.XMLButton)
+        Me.Controls.Add(Me.TXTButton)
+        Me.Controls.Add(Me.AddressTextBox)
+        Me.Controls.Add(Me.AgeTextBox)
+        Me.Controls.Add(Me.NameTextBox)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.ShowIcon = False
+        Me.ShowInTaskbar = False
+        Me.Text = " File Generator"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -144,10 +153,10 @@ Partial Class Form1
     Friend WithEvents Label1 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
+    Friend WithEvents NameTextBox As TextBox
+    Friend WithEvents AgeTextBox As TextBox
+    Friend WithEvents AddressTextBox As TextBox
+    Friend WithEvents TXTButton As Button
+    Friend WithEvents XMLButton As Button
+    Friend WithEvents JSONButton As Button
 End Class

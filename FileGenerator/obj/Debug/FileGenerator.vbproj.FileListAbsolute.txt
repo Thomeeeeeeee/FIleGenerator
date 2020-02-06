@@ -1,1 +1,13 @@
 c:\users\user\documents\visual studio 2015\Projects\FileGenerator\FileGenerator\bin\Debug\FileGenerator.exe.config
+C:\Users\User\Documents\Visual Studio 2015\Projects\FileGenerator\FileGenerator\bin\Debug\FileGenerator.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\FileGenerator\FileGenerator\bin\Debug\FileGenerator.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\FileGenerator\FileGenerator\bin\Debug\FileGenerator.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\FileGenerator\FileGenerator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\FileGenerator\FileGenerator\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\FileGenerator\FileGenerator\obj\Debug\FileGenerator.vbprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2015\Projects\FileGenerator\FileGenerator\obj\Debug\FileGenerator.Form1.resources
+C:\Users\User\Documents\Visual Studio 2015\Projects\FileGenerator\FileGenerator\obj\Debug\FileGenerator.Resources.resources
+C:\Users\User\Documents\Visual Studio 2015\Projects\FileGenerator\FileGenerator\obj\Debug\FileGenerator.vbproj.GenerateResource.Cache
+C:\Users\User\Documents\Visual Studio 2015\Projects\FileGenerator\FileGenerator\obj\Debug\FileGenerator.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\FileGenerator\FileGenerator\obj\Debug\FileGenerator.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\FileGenerator\FileGenerator\obj\Debug\FileGenerator.pdb
